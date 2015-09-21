@@ -21,7 +21,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = '*v8a)%ljj*@&mj^$@n2o(p1tt2yeq7a8))rz3yq4jyl6r$t$xy'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = DEBUG
 
@@ -190,3 +190,15 @@ CKEDITOR_CONFIGS = {
         ]
     },
 }
+
+FORUM_META_TITLE='TEST'
+FORUM_META_TITLE='TEST'
+FORUM_META_TITLE='TEST'
+
+GROUPS_META_TITLE='TEST'
+GROUPS_META_TITLE='TEST'
+GROUPS_META_TITLE='TEST'
+
+TRAVELS_META_TITLE = 'TEST'
+TRAVELS_META_DESC = 'TEST1'
+TRAVELS_META_KEYS = 'TEST2'

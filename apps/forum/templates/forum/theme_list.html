@@ -1,4 +1,7 @@
 {% extends 'base.html' %}
+{% block title %}{{ theme_list.meta_title|default:'' }}{% endblock %}
+{% block meta_desc %}{{ theme_list.meta_desc|default:'' }}{% endblock %}
+{% block meta_keys %}{{ theme_list.meta_keys|default:'' }}{% endblock %}
 {% block content %}
   <div class="container">
     <div class="forum">
